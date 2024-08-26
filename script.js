@@ -10,15 +10,15 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Combustíveis fósseis, desmatamento e atividades industriais;",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                afirmacao: "1-Correta. "
             },
             {
                 texto: "Desmatamento, fenômenos naturais e poluição das águas;",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                afirmacao: "1-Incorreta."
             },
             {
                 texto: "Pecúaria, seca e mineração;",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                afirmacao: "1-Incorreta. "
 
             }
 
@@ -29,15 +29,15 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Alterações reprodutivas, bom humor e maior risco de surgimentos de pandemias;",
-                afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
+                afirmacao: "2-Incorreta."
             },
             {
                 texto: "Depressão, doenças infecciosas e fome;",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                afirmacao: "2-Incorreta."
             },
             {
                 texto: " Doenças respiratórias, alterações comportamentais e doenças infecciosas;",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                afirmacao: "2-Correta."
             }
         ]
     },
@@ -46,15 +46,15 @@ const perguntas = [
         alternativas: [
             {
                 texto: " Oceanos aquecidos e subindo, aumento de espécies e benefícios a saúde;",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                afirmacao: "3-Incorreta."
             },
             {
                 texto: "Temperaturas mais quentes, tempestades severas e perda de espécies;",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
+                afirmacao: "3-Correta."
             },
             {
                 texto: "Comida insuficiente, aumento das secas e melhora no estilo de vida;",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
+                afirmacao: "3-Incorreta."
             }
         ]
     },
@@ -93,7 +93,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = "Mudança climática se refere a transformações de longo prazo nos padrões de temperatura e clima. Essas alterações podem ser naturais, mas desde o século 18 as atividades humanas têm sido a principal causa das mudanças climáticas, principalmente por causa da queima de combustíveis fósseis (como carvão, petróleo e gás), que produzem gases que retêm o calor. -Resultados:";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
